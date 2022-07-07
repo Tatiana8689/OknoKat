@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  width: 100%;
+  background: url('./images/glass-building45-1.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.header__logo__image {
+  width: 200px;
+  height: 200px;
+  filter: drop-shadow(2px 2px 2px #000000);
+}
+
+.header__logo__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header__logo__brand {
+  font-size: 45px;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.header__logo__slogan {
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.header__menu {
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header__menu__list {
+  display: flex;
+}
+
+.header__menu__list li {
+  font-size: 18px;
+  line-height: 0;
+  padding: 15px;
+  text-shadow: 2px 2px 2px #000000;
+  border-left: 2px solid #020202;
+}
+
+.header__menu__list li:first-child {
+  border: none;
+}
+
+main {
+  height: 70%;
+}
+
+footer {
+  height: 15%;
+}
